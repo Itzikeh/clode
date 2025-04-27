@@ -3,7 +3,7 @@ import express from 'express';
 import puppeteer from 'puppeteer-core';
 
 const app = express();
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 3000;
 
 const browserWSEndpoint = 'wss://brd-customer-hl_ff473d9e-zone-scraping_browser1:1107w17z38ha@brd.superproxy.io:9222';
 
